@@ -1,0 +1,85 @@
+*,html,body
+{
+	margin: 0;
+	padding: 0;
+}
+
+header
+{
+	 background-color: black;
+	 height: 147px;
+	 line-height: 112px;
+	;
+}
+
+ul
+{
+	list-style: none;
+}
+ul li
+{
+	display: inline-block;
+}
+header nav
+{
+	float: right;
+}
+
+.logo img
+{
+	margin-top: 0px;
+	
+}
+header nav ul li a
+{
+	padding-right: 40px;
+	font-weight: bold;
+	color: rgb(43, 55, 226);
+	
+	font-size: 18px;
+	transition: all 1s fade-out;
+
+}
+
+header nav ul li a:hover
+{
+	text-decoration: none;
+	color=darkpink;
+}
+
+
+.img1{
+
+        background-image:url(..//Images/bg4.jpg);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        opacity: 1.2;
+        text-transform: uppercase;
+        text-decoration-style: solid;
+        text-overflow: clip;
+        text-shadow: hsla(hue, saturation, lightness, alpha);
+        text-transform: capitalize;
+        font-style: oblique;
+        font-variant-ligatures: additional-ligatures;
+        font-family: 'Alegreya', serif;
+        font-family: 'Chelsea Market', cursive;
+        font-family: 'Merriweather', serif;
+    }
+    
+}
+div, .headin{
+
+	width: 100px;
+	height: 100px;
+	background: red;
+	position: relative;
+	animation-name: example;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	  
+	  
+	}
+	
+
+}
